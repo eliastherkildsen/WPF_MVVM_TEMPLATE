@@ -22,13 +22,12 @@ public partial class App : Application, INotifyPropertyChanged
     
     private List<KeyValuePair<Type, ViewModelBase>> _viewModels = new List<KeyValuePair<Type, ViewModelBase>>();
 
-    public void addViewModel(Type type, ViewModelBase viewModel)
+    public void AddViewModel(Type type, ViewModelBase viewModel)
     {
         _viewModels.Add(new KeyValuePair<Type, ViewModelBase>(type, viewModel));
-        Debug.WriteLine("Added ViewModel");
+        //Debug.WriteLine("Added ViewModel");
     }
-
-    public void loadViewModel(Type type)
+    public void LoadViewModel(Type type)
     {
         Debug.WriteLine("Loading ViewModel");
         
@@ -37,11 +36,15 @@ public partial class App : Application, INotifyPropertyChanged
             if (viewModel.Key == type)
             {
                 CurrentViewModel = viewModel.Value;
-                Debug.WriteLine($"Loaded ViewModel: {viewModel.Key} - {viewModel.Value} ");
+                //Debug.WriteLine($"Loaded ViewModel: {viewModel.Key} - {viewModel.Value} ");
             }    
         }
     }
 
+    public List<KeyValuePair<Type, ViewModelBase>> GetViewModels()
+    {
+        return _viewModels;
+    } 
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
