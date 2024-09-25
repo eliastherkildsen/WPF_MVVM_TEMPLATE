@@ -10,13 +10,12 @@ public abstract class ViewModelBase : INotifyPropertyChanged
     
     protected ViewModelBase()
     {
-        Registre(GetType(), this);
+        Registre(this);
     }
-    
-    protected void Registre(Type type, ViewModelBase viewModelBase )
-    {
-        ((App)App.Current).AddViewModel(type, viewModelBase);
 
+    private void Registre(ViewModelBase viewModelBase )
+    {
+        ((App)App.Current).RegistryViewModel(viewModelBase);
     }
     
     public event PropertyChangedEventHandler? PropertyChanged;

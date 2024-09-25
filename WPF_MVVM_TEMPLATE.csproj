@@ -25,6 +25,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    </ItemGroup>
+
+    <ItemGroup>
       <Folder Include="Entitys\" />
     </ItemGroup>
 

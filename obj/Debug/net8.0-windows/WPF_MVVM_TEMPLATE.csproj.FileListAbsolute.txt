@@ -17,12 +17,11 @@ C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\refint\W
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\WPF_MVVM_TEMPLATE.pdb
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\WPF_MVVM_TEMPLATE.genruntimeconfig.cache
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\ref\WPF_MVVM_TEMPLATE.dll
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\BlueView.g.cs
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\OrderUserControle.g.cs
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\RedView.g.cs
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\BlueView.baml
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\OrderUserControle.baml
-C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\RedView.baml
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\App.g.cs
 C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\WPF_MVVM_TEMPLATE.sourcelink.json
+C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\WPF_MVVM_TEMPLATE.csproj.AssemblyReference.cache
+C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\WPF_MVVM.807E1A26.Up2Date
+C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\AdminPanelView.g.cs
+C:\Users\elias\RiderProjects\WPF_MVVM_TEMPLATE\obj\Debug\net8.0-windows\Presentation\View\AdminPanelView.baml

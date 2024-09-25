@@ -2,9 +2,9 @@
 
 namespace WPF_MVVM_TEMPLATE.Presentation.View;
 
-public partial class BlueView : UserControl
+public partial class AdminPanelView : UserControl
 {
-    public BlueView()
+    public AdminPanelView()
     {
         InitializeComponent();
     }

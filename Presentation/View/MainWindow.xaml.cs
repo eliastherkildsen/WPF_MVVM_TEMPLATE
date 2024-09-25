@@ -13,19 +13,11 @@ public partial class MainWindow : Window
         InitializeComponent();
         DataContext = ((App)App.Current);
         
-        new RedViewModel(); 
-        new BlueViewModel();
+        new AdminPanelViewModel();
+        ((App)App.Current).LoadViewModel(typeof(AdminPanelViewModel));
 
-    }
 
-    private void ButtonRedClick(object sender, RoutedEventArgs e)
-    {
-        ((App)App.Current).LoadViewModel(typeof(RedViewModel));
     }
     
-    private void ButtonBlueClick(object sender, RoutedEventArgs e)
-    {
-        ((App)App.Current).LoadViewModel(typeof(BlueViewModel));
-    }
     
 }
