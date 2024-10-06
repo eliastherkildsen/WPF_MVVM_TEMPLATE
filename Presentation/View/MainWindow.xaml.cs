@@ -14,9 +14,8 @@ public partial class MainWindow : Window
         DataContext = ((App)App.Current);
         
         new AdminPanelViewModel();
-        ((App)App.Current).LoadViewModel(typeof(AdminPanelViewModel));
-
-
+        ViewModelController.Instance.SetCurrentViewModel(typeof(AdminPanelViewModel));
+        
     }
     
     

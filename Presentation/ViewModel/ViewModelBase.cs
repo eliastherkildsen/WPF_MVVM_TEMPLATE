@@ -15,7 +15,7 @@ public abstract class ViewModelBase : INotifyPropertyChanged
 
     private void Registre(ViewModelBase viewModelBase )
     {
-        ((App)App.Current).RegistryViewModel(viewModelBase);
+        ViewModelController.Instance.RegistryViewModel(viewModelBase);
     }
     
     public event PropertyChangedEventHandler? PropertyChanged;
